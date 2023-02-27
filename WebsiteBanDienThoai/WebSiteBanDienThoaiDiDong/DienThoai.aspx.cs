@@ -29,7 +29,7 @@ namespace WebSiteBanDienThoaiDiDong
             {
                 s = string.Format(@"SELECT * FROM tblDienThoai WHERE IDNSX='{0}'" + ddlGiaTu.SelectedValue.ToString() + ddlGia.SelectedValue.ToString(), Request["IDNSX"]);
             }
-            //Download source code FREE tai Sharecode.vn
+           
             int IDTrangDT = 0;
             if (Request["IDTrangDT"] != null)
             {
@@ -53,7 +53,7 @@ namespace WebSiteBanDienThoaiDiDong
             }
             else
             {
-                //Download source code FREE tai Sharecode.vn
+               
                 soTrang = soBanGhi / 12 + 1;
             }
             if (!IsPostBack)

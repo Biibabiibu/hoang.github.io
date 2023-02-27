@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1267
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteBanDienThoai", "WebSiteBanDienThoaiDiDong\WebSiteBanDienThoai.csproj", "{0FF6C76C-7A92-4AB8-A10E-DF8AF9EB26C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S03_CodeFirst", "S03_CodeFirst", "{53794F7D-C545-4425-9074-E5EA5D5D9C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_HelloCodeFirst", "P01_HelloCodeFirst\P01_HelloCodeFirst.csproj", "{94D8102E-0F19-4318-8446-CC5BF47B7233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{0FF6C76C-7A92-4AB8-A10E-DF8AF9EB26C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF6C76C-7A92-4AB8-A10E-DF8AF9EB26C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF6C76C-7A92-4AB8-A10E-DF8AF9EB26C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D8102E-0F19-4318-8446-CC5BF47B7233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D8102E-0F19-4318-8446-CC5BF47B7233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D8102E-0F19-4318-8446-CC5BF47B7233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D8102E-0F19-4318-8446-CC5BF47B7233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94D8102E-0F19-4318-8446-CC5BF47B7233} = {53794F7D-C545-4425-9074-E5EA5D5D9C0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {166C69A3-F300-47E0-84BC-B21ABAFA0BDF}

@@ -14,7 +14,7 @@ namespace WebSiteBanDienThoaiDiDong.ThaoTac
 {
     public class ThaoTacCSDL
     {
-        public SqlConnection CNN = new SqlConnection(@"Data Source=DESKTOP-ESSSM41;Initial Catalog=DataBanHang;Integrated Security=True");
+        public SqlConnection CNN = new SqlConnection(@"Data Source=DESKTOP-7CQKFEU\BIBABIBU;Initial Catalog=MyData;Integrated Security=True");
       public ThaoTacCSDL()
         {
             //
@@ -63,15 +63,6 @@ namespace WebSiteBanDienThoaiDiDong.ThaoTac
             DataSet dts = new DataSet();
             adt.Fill(dts, (Vitribatdau - 1) * 4, 4, "Ten");
             return dts;
-        }
-        public DataSet LayTinTuc(int vitridau)
-        {
-            SqlCommand com = new SqlCommand("SELECT * FROM tblTinTuc ORDER BY MaTinTuc DESC", CNN);
-            CNN.Open();
-            SqlDataAdapter dad = new SqlDataAdapter(com);
-            DataSet ds = new DataSet();
-            dad.Fill(ds, (vitridau - 1) * 6, 6, "tblTinTuc");
-            return ds;
         }
         public DataSet LayDienThoai(int vitridau, String st)
         {

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebSiteBanDienThoaiDiDong {
-    
-    
-    public partial class ChiTietDienThoai {
-        
+namespace WebSiteBanDienThoaiDiDong
+{
+
+
+    public partial class ChiTietDienThoai
+    {
+
         /// <summary>
         /// rChiTietDT control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebSiteBanDienThoaiDiDong {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rChiTietDT;
-        
+
         /// <summary>
         /// sdsChiTietDT control.
         /// </summary>
@@ -29,70 +31,7 @@ namespace WebSiteBanDienThoaiDiDong {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource sdsChiTietDT;
-        
-        /// <summary>
-        /// fvComment control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView fvComment;
-        
-        /// <summary>
-        /// sdsComment control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sdsComment;
-        
-        /// <summary>
-        /// tbTieuDe control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbTieuDe;
-        
-        /// <summary>
-        /// RequiredFieldValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
-        /// <summary>
-        /// tbCommenContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbCommenContent;
-        
-        /// <summary>
-        /// RequiredFieldValidator2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-        
-        /// <summary>
-        /// cmdGuiYK control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdGuiYK;
-        
+
         /// <summary>
         /// rSPTuongTu control.
         /// </summary>
@@ -101,7 +40,7 @@ namespace WebSiteBanDienThoaiDiDong {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rSPTuongTu;
-        
+
         /// <summary>
         /// sdsSPTuongTu control.
         /// </summary>

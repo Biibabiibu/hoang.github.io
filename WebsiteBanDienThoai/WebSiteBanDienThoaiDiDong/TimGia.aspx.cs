@@ -33,7 +33,7 @@ namespace WebSiteBanDienThoaiDiDong
                 case "6": st = string.Format(@"SELECT * FROM tblDienThoai WHERE Gia >10000000 ORDER BY Gia"); break;
             }
 
-            //Download source code FREE tai Sharecode.vn
+           
             int n = dl.SoBanGhi(st);
             dl.CNN.Close();
             if (n != 0)

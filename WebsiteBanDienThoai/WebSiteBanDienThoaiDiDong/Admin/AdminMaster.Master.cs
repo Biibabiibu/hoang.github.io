@@ -52,14 +52,14 @@ namespace WebSiteBanDienThoaiDiDong.Admin
                     {
                         case 0: p1.Visible = false; break;
                         case 1: p2.Visible = false; break;
-                        case 2: p3.Visible = false; break;
-                        case 3: p4.Visible = false; break;
+                      
+                       
                         case 4: p5.Visible = false; break;
                         case 5: p6.Visible = false; break;
                         case 6: p7.Visible = false; break;
                         case 7: p8.Visible = false; break;
                         case 8: p9.Visible = false; break;
-                        case 9: p10.Visible = false; break;
+                       
                     }
                 }
             }

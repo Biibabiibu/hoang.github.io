@@ -66,8 +66,8 @@
         <td align="left" valign="top"><h4>Địa chỉ - Tài khoản thanh toán của shop.</h4></td>
       </tr>
       <tr>
-        <td align="left" valign="top"><strong>Địa chỉ: </strong>Số 06, Trần Văn Ơn, Phú Hòa, Thủ Dầu Một, Bình Dương Phường Phú Hòa<br />
-        <strong>Tài khoản ngân hàng</strong> của shop: 65010002789941</td>
+        <td align="left" valign="top"><strong>Địa chỉ: </strong>Ý Yên, Nam Định<br />
+        <strong>Tài khoản ngân hàng</strong> của shop: 03955503555</td>
       </tr>
     </table>
     <hr />

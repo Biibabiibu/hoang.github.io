@@ -1,36 +1,32 @@
-//** All Levels Navigational Menu- (c) Dynamic Drive DHTML code library: http://www.dynamicdrive.com
-//** Script Download/ instructions page: http://www.dynamicdrive.com/dynamicindex1/ddlevelsmenu/
-//** Usage Terms: http://www.dynamicdrive.com/notice.htm
 
-//** Current version: 3.02 See changelog.txt for details
 
-if (typeof dd_domreadycheck=="undefined") //global variable to detect if DOM is ready
+if (typeof dd_domreadycheck=="undefined") 
 	var dd_domreadycheck=false
 
 var ddlevelsmenu={
-enableshim: true, //enable IFRAME shim to prevent drop down menus from being hidden below SELECT or FLASH elements? (tip: disable if not in use, for efficiency)
+enableshim: true, 
 
 arrowpointers:{
-	downarrow: ["ddlevelsfiles/arrow-down.gif", 11,7], //[path_to_down_arrow, arrowwidth, arrowheight]
-	rightarrow: ["ddlevelsfiles/arrow-right.gif", 12,12], //[path_to_right_arrow, arrowwidth, arrowheight]
-	showarrow: {toplevel: true, sublevel: true} //Show arrow images on top level items and sub level items, respectively?
+	downarrow: ["ddlevelsfiles/arrow-down.gif", 11,7], 
+	rightarrow: ["ddlevelsfiles/arrow-right.gif", 12,12], 
+	showarrow: {toplevel: true, sublevel: true} 
 },
-hideinterval: 200, //delay in milliseconds before entire menu disappears onmouseout.
+hideinterval: 200, 
 effects: {enableswipe: true, enableslide: true, enablefade: true, duration: 200},
-httpsiframesrc: "blank.htm", //If menu is run on a secure (https) page, the IFRAME shim feature used by the script should point to an *blank* page *within* the secure area to prevent an IE security prompt. Specify full URL to that page on your server (leave as is if not applicable).
+httpsiframesrc: "blank.htm", 
 
-///No need to edit beyond here////////////////////
 
-topmenuids: [], //array containing ids of all the primary menus on the page
-topitems: {}, //object array containing all top menu item links
-subuls: {}, //object array containing all ULs
-lastactivesubul: {}, //object object containing info for last mouse out menu item's UL
+
+topmenuids: [], 
+topitems: {}, 
+subuls: {}, 
+lastactivesubul: {}, 
 topitemsindex: -1,
 ulindex: -1,
-hidetimers: {}, //object array timer
+hidetimers: {}, 
 shimadded: false,
-nonFF: !/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent), //detect non FF browsers
-ismobile:navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i) != null, //boolean check for popular mobile browsers
+nonFF: !/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent), 
+ismobile:navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i) != null, 
 
 getoffset:function(what, offsettype){
 	return (what.offsetParent)? what[offsettype]+this.getoffset(what.offsetParent, offsettype) : what[offsettype]

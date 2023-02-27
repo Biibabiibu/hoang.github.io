@@ -41,14 +41,12 @@
             <% }else{ %>
             <li><div id="p1" runat="server"><span><span><a href="QL_NguoiSuDung.aspx">Người Sử Dụng</a></span></span></div></li>
             <li><div id="p2" runat="server"><span><span><a href="QL_KhachHang.aspx">Khách Hàng</a></span></span></div></li>
-            <li><div id="p3" runat="server"><span><span><a href="QL_LienHe.aspx">Góp ý</a></span></span></div></li>
-            <li><div id="p4" runat="server"><span><span><a href="QL_TinTuc.aspx">Tin Tức</a></span></span></div></li>
             <li><div id="p5" runat="server"><span><span><a href="QL_NSX.aspx">Nhà Sản Xuất</a></span></span></div></li>
             <li><div id="p6" runat="server"><span><span><a href="QL_DienThoai.aspx">Điện Thoại</a></span></span></div></li>
             <li><div id="p7" runat="server"><span><span><a href="QL_NCC.aspx">Nhà Cung Cấp</a></span></span></div> </li>
             <li><div id="p8" runat="server"><span><span><a href="QL_ChucNang.aspx">Chức Năng</a></span></span></div></li>
             <li><div id="p9" runat="server"><span><span><a href="QL_QuyenSD.aspx">Quyền sử dụng</a></span></span></div></li>
-            <li><div id="p10" runat="server"><span><span><a href="QL_Comment.aspx">Comment</a></span></span></div></li>
+            
 
 
             <%} %>

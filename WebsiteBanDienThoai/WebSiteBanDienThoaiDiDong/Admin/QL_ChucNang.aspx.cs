@@ -30,7 +30,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin
             lMaSo.Text = gvChucNang.Rows[gvChucNang.SelectedIndex].Cells[0].Text;
             txtTenChucNang.Text = Server.HtmlDecode(gvChucNang.Rows[gvChucNang.SelectedIndex].Cells[1].Text);
             txtMota.Text = Server.HtmlDecode(gvChucNang.Rows[gvChucNang.SelectedIndex].Cells[2].Text);
-    
+
         }
         protected void clear()
         {

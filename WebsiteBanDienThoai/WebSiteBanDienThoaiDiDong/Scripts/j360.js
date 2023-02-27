@@ -1,16 +1,4 @@
-/**
- * j360 jQuery plugin
- * author     Stable Flow
- * copyright  (c) 2009-2010 by StableFlow
- * link       http://www.stableflow.com/downloads/jquery-plugins/360-degrees-product-view/
- *
- * Version: 1.0.0 (12/13/2010)
- * Requires: jQuery v1.3+
- *
- * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
- */
+
 (function($){
     $.fn.j360 = function(options) {
         var defaults = {
@@ -27,7 +15,7 @@
                 'text-align' : 'center',
                 'overflow' : 'hidden'
             });
-            // $obj.prepend('<img src="/images/loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
+           
 
             $overlay = $obj.clone(true);
             $overlay.html('<img src="images/loader.gif" class="loader" style="margin-top:' + ($obj.height()/2 - 15) + 'px" />');
@@ -122,10 +110,7 @@
 })(jQuery)
 
 function onresizeFunc($obj, $overlay) {
-    /*
-	$obj.css({
-        'margin-top' : $(document).height()/2 - 150
-    });*/
+
     $overlay.css({
         'margin-top' : 0,
         'top' : $obj.offset().top,
@@ -149,6 +134,6 @@ function preload(image) {
         document.body.appendChild(div);
         div.innerHTML = "<img class=\"preload_img\" src=\"" + image + "\" />";
     } catch(e) {
-    // Error. Do nothing.
+    
     }
 }

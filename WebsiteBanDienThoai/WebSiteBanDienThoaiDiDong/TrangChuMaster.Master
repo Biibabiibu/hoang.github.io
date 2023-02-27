@@ -1,10 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangChuMaster.master.cs" Inherits="WebSiteBanDienThoaiDiDong.TrangChuMaster" %>
 <%@ Register src="UserControl/DangNhap.ascx" tagname="DangNhap" tagprefix="uc1" %>
 
-<%@ Register src="UserControl/TinMoi.ascx" tagname="TinMoi" tagprefix="uc2" %>
-
-<%@ Register src="UserControl/DTHot.ascx" tagname="DTHot" tagprefix="uc3" %>
-
 <%@ Register src="UserControl/DemSoNguoi.ascx" tagname="DemSoNguoi" tagprefix="uc4" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -40,15 +36,9 @@
                 ImageUrl="images/search.gif" CssClass="search_bt" onclick="ibTimKiem_Click" />
         </div>
         
-    </div>
-	<a href="Default.aspx">
-    <div id="header">
+   
         
-         <object style="width: 993px; height: 196px" id="Object1">
-            <embed src="flash/tuyetsao.swf" width="950" height="90" 
-            quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer";; type="application/x-shockwave-flash" menu="false" wmode="transparent">
-            </embed>
-        </object>
+       
         
         <!-- end of oferte_content-->
         
@@ -62,13 +52,12 @@
                          <li class="divider"></li>
                          <li><a href="GioiThieu.aspx"class="nav2">Giới thiệu</a></li>
                          <li class="divider"></li>
-                         <li><a href="TinTuc.aspx" class="nav4">Tin Tức</a></li>
-                         <li class="divider"></li>                         
+                                             
                          <!--<li><a href="GioHang.aspx" class="nav5">Giỏ Hàng</a></li>
                          <li class="divider"></li>-->
                          <li><a href="HuongDan.aspx" class="nav3">Hướng Dẫn</a></li>
                          <li class="divider"></li>
-                         <li><a href="LienHe.aspx" class="nav6">Góp ý</a></li>
+                        
                          <li class="divider"><a href="Admin/TrangQuanTri.aspx" class="nav4">Admin</a></li>
                     </ul>
 
@@ -93,17 +82,25 @@
                         ConnectionString="<%$ ConnectionStrings:MyDataConnectionString %>" 
                         SelectCommand="SELECT * FROM [tblNSX]"></asp:SqlDataSource>
 
- 
-             <uc3:DTHot ID="DTHot1" runat="server" />
-             <uc2:TinMoi ID="TinMoi1" runat="server" />
+
              <uc4:DemSoNguoi ID="DemSoNguoi1" runat="server" />
  
       <div class="banner_adds"> 
-     <a href="http://qctt24h.24h.com.vn/qcao/09140_TOPCARE_24h.html" target="_blank"><embed src="images/TiencuongMobile_300X300_091111.swf" width="180px"  alt="" title="" border="0"></embed></a>
+     <a href="https://cellphones.com.vn/samsung-galaxy-z-fold-4.html" target="_blank"><embed src="images/product-dat-coc-s23.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
      </div> 
       <div class="banner_adds"> 
-     <a href="http://quangcao.24h.com.vn/qcao/10076_buudienhanoi.html" target="_blank"><embed src="images/670x300_t11.swf" width="180px"alt="" title="" border="0"></embed></a>
+     <a href="https://cellphones.com.vn/uu-dai-doi-tac/evo" target="_blank"><embed src="images/qwert.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
      </div> 
+        <div class="banner_adds"> 
+     <a href="https://cellphones.com.vn/uu-dai-mo-the-vp-bank" target="_blank"><embed src="images/Sliding.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
+     </div>
+        <div class="banner_adds"> 
+     <a href="https://cellphones.com.vn/uu-dai-doi-tac/home-credit" target="_blank"><embed src="images/Untitled.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
+     </div>
+        <div class="banner_adds"> 
+     <a href="https://cellphones.com.vn/uu-dai-doi-tac/jcb" target="_blank"><embed src="images/zxcv.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
+     </div>
+
         
     
    </div><!-- end of left content -->
@@ -147,34 +144,25 @@
          
         </ul> 
 
-        <div class="title_box">Tìm kiếm theo chức năng</div>
-        <div class="border_box1">
-        <br />
-            <div style="padding-left: 5px;">
-            <asp:CheckBoxList ID="cblChucNang" CellPadding="5" RepeatDirection="Vertical" runat="server">
-                <asp:ListItem Value="wifi" Text="Chức năng Wifi"></asp:ListItem>
-                <asp:ListItem Value="3g" Text="Chức năng 3G" Selected="True"></asp:ListItem>
-                <asp:ListItem Value="java" Text="Chức năng Java"></asp:ListItem>
-            </asp:CheckBoxList>
-            </div>
-            
-            <p>
-            <center><asp:Button id="cmdTKCN" Text="Tìm kiếm" runat="server" onclick="cmdTKCN_Click"  /></center>
-            </p>
-        </div>
+     
     
      <div class="banner_adds">
      
-     <a href="http://quangcao.24h.com.vn/customers/megavnn/?utm_source=24h.com.vn&utm_medium=banner&utm_campaign=click" target=_blank><embed src="images/pml1315316369.swf" width="180px" height="300px" alt="" title="" border="0"></embed></a>
+     <a href="https://cellphones.com.vn/apple" target=_blank><embed src="images/apple.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
      </div>   
      <div class="banner_adds">
      
-     <a href="http://quangcao.24h.com.vn/qcao/10122_Saiko.html" target=_blank><embed src="images/vdt1318999907.swf" width=180px alt="" title="" border="0"></embed></a>
+     <a href="https://cellphones.com.vn/asus" target=_blank><embed src="images/asus.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
      </div> 
      <div class="banner_adds">
      
-     <a href="http://quangcao.24h.com.vn/customers/vnpt/?utm_source=24h.com.vn&utm_medium=banner&utm_campaign=click" target=_blank><embed src="images/3Sao 280 x 285_1.swf" width="180px" alt="" title="" border="0"></embed></a>
+     <a href="https://cellphones.com.vn/samsung" target=_blank><embed src="images/samsung.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
      </div>
+          <div class="banner_adds">
+     
+     <a href="https://cellphones.com.vn/xiaomi" target=_blank><embed src="images/xiaomi.gif" width="200px" height="220px" alt="" title="" border="0"></embed></a>
+     </div>   
+         
      
    </div><!-- end of right content -->   
    
@@ -185,7 +173,7 @@
    
    <div class="footer">
        <div class="left_footer">
-           <img src="../images/footer_logo.png" alt="images footer"/>
+           <img src="../images/footer1_logo.png" alt="images footer"/>
        </div>
 
         <div class="center_footer">

@@ -106,72 +106,11 @@
         </SelectParameters>
     </asp:SqlDataSource>
     
-    <div class="center_title_bar">Bình luận / Nhận xét</div>
-    <div class="prod_box">
-                <asp:GridView ID="fvComment" runat="server" DataSourceID="sdsComment" 
-                    AllowPaging="True" AutoGenerateColumns="False" GridLines="None"
-                PageSize="5" PagerSettings-NextPageText="Next" PagerSettings-Mode="NumericFirstLast">
-                    <EmptyDataTemplate>
-                        Hiện tại không có bình luận nào!
-                    </EmptyDataTemplate>
-                    <Columns>
-                        <asp:TemplateField>
-                            <ItemTemplate>
-                                   <div class="avatar"> 
-            <img src="images/no-image.gif" style="margin: 2px 0 0 2px;" />                            
-        </div>
-        
-        <div class="cm_r_top_left"></div>
-        
-        <div class="comment">
-
-        <span style="font-weight:bold">       
-        <%# Eval("TaiKhoan") %> 
-        </span>viết:
-        
-        <br />
-        Tiêu đề: <%# Eval("TieuDe") %> <font color="#a5a5a5">(<%# Eval("NgayDang") %>) </font>
-        <br />
-        <%# Eval("Comments") %></div>
-        <div class="clear"></div>
-                            </ItemTemplate>
-                        </asp:TemplateField>
-                    </Columns>
-
-        </asp:GridView>
+   
      
 
     
-        <asp:SqlDataSource ID="sdsComment" runat="server" 
-            ConnectionString="<%$ ConnectionStrings:MyDataConnectionString %>"></asp:SqlDataSource>
-        
-<div class="frm_comment">
-            <table cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                    <td style="width: 100px; font-size: 12px; font-weight:bold; color: Red">CHIA SẺ Ý KIẾN </td>
-                    <td>
-                    <asp:TextBox ID="tbTieuDe" runat="server" Text="Tiêu đề"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="tbTieuDe" ValidationGroup="comment" runat="server" ErrorMessage="(*)"></asp:RequiredFieldValidator>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding-left:20px;"><img src="images/bg_control_cm.gif" /></td>
-                    <td class="tr_com">
-                        <asp:TextBox ID="tbCommenContent" Text="Viết ý kiến của bạn" TextMode="MultiLine" Rows="3" Width="400" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="tbCommenContent" ValidationGroup="comment" runat="server" ErrorMessage="(*)"></asp:RequiredFieldValidator>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td style="padding-top: 8px;">
-                        <asp:Button ID="cmdGuiYK" Text="Gửi Ý Kiến" runat="server" 
-                            onclick="cmdGuiYK_Click" ValidationGroup="comment" />
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
+    
    
     <div class="center_title_bar">Sản Phẩm Tương Tự</div>
     <asp:Repeater ID="rSPTuongTu" runat="server" DataSourceID="sdsSPTuongTu">

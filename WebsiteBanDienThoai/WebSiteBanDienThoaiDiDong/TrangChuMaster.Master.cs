@@ -60,33 +60,5 @@ namespace WebSiteBanDienThoaiDiDong
             }
         }
 
-        protected void cmdTKCN_Click(object sender, EventArgs e)
-        {
-
-            string s = string.Empty;
-            for (int i = 0; i < cblChucNang.Items.Count; i++)
-            {
-                if (cblChucNang.Items[i].Selected && cblChucNang.Items[i].Value != "-1")
-                {
-                    s += cblChucNang.Items[i].Value + ",";
-
-
-                }
-                else if (cblChucNang.Items[0].Selected == false && cblChucNang.Items[1].Selected == false && cblChucNang.Items[2].Selected == false)
-                {
-                    Response.Write ("Bạn hãy chọn một chức năng cần tìm kiếm");
-                    return;
-                }
-
-            }
-
-
-            string list = s.Remove(s.Length - 1, 1);
-            string key = list;
-            Response.Redirect("TimKiem.aspx?str=" + key);
-
-
-
-        }
     }
 }

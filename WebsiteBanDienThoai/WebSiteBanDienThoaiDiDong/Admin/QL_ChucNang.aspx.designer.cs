@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebSiteBanDienThoaiDiDong.Admin {
-    
-    
-    public partial class QL_ChucNang {
-        
+namespace WebSiteBanDienThoaiDiDong.Admin
+{
+
+
+    public partial class QL_ChucNang
+    {
+
         /// <summary>
         /// gvChucNang control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvChucNang;
-        
+
         /// <summary>
         /// sdsChucNang control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource sdsChucNang;
-        
+
         /// <summary>
         /// quyenXem control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl quyenXem;
-        
+
         /// <summary>
         /// lMaSo control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lMaSo;
-        
+
         /// <summary>
         /// txtTenChucNang control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTenChucNang;
-        
+
         /// <summary>
         /// rfvTenChucNang control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTenChucNang;
-        
+
         /// <summary>
         /// txtMota control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMota;
-        
+
         /// <summary>
         /// cmdCapNhat control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdCapNhat;
-        
+
         /// <summary>
         /// cmdHuy control.
         /// </summary>

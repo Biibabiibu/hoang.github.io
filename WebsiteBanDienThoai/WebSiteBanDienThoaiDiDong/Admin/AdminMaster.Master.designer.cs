@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebSiteBanDienThoaiDiDong.Admin {
-    
-    
-    public partial class AdminMaster {
-        
+namespace WebSiteBanDienThoaiDiDong.Admin
+{
+
+
+    public partial class AdminMaster
+    {
+
         /// <summary>
         /// head control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// lbLogout control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lbLogout;
-        
+
         /// <summary>
         /// p1 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p1;
-        
+
         /// <summary>
         /// p2 control.
         /// </summary>
@@ -56,25 +58,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p2;
-        
-        /// <summary>
-        /// p3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl p3;
-        
-        /// <summary>
-        /// p4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl p4;
-        
+
         /// <summary>
         /// p5 control.
         /// </summary>
@@ -83,7 +67,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p5;
-        
+
         /// <summary>
         /// p6 control.
         /// </summary>
@@ -92,7 +76,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p6;
-        
+
         /// <summary>
         /// p7 control.
         /// </summary>
@@ -101,7 +85,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p7;
-        
+
         /// <summary>
         /// p8 control.
         /// </summary>
@@ -110,7 +94,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p8;
-        
+
         /// <summary>
         /// p9 control.
         /// </summary>
@@ -119,16 +103,7 @@ namespace WebSiteBanDienThoaiDiDong.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl p9;
-        
-        /// <summary>
-        /// p10 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl p10;
-        
+
         /// <summary>
         /// ContentPlaceHolder1 control.
         /// </summary>

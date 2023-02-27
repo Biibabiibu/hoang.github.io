@@ -74,11 +74,10 @@ a.lang{
     float:left;
     padding:0 5px 0 5px;
 }
-#header
-{
+#header {
     width: 1000px;
     height: 125px;
-    background: url('../images/bannerchinh1.jpg') no-repeat center;
+    background: url('C:/Users/Admin/Desktop/WebsiteBanDienThoai/WebsiteBanDienThoai/WebSiteBanDienThoaiDiDong/images/hoang.gif') no-repeat center;
     background-position: 0px 0px;
     padding-left: -10px;
 }
